@@ -1,0 +1,8 @@
+<div *ngIf="success">
+    <p>{{token}}</p>
+    <p>{{refresh_token}}</p>
+    <button (click)="refreshToken()" class="btn btn-primary">refresh tokens</button>
+</div>
+<div *ngIf="!success">
+    <p>Erreur</p>
+</div>
