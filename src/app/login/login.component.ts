@@ -12,7 +12,7 @@ export class LoginComponent {
   constructor() {
   };
   clientId = '6605bd9473344191a66caee21afaa298';
-  redirectUrl = 'http://localhost:4200/callback';
+  redirectUrl = 'https://lloydwes.github.io/DeejCppSpotifyLogin/callback';
   authorizationEndpoint = "https://accounts.spotify.com/authorize";
   scope = 'user-read-private user-read-email user-read-playback-state user-read-currently-playing user-modify-playback-state';
   // generateRandomString(length : number) {
